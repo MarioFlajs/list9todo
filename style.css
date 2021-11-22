@@ -1,0 +1,155 @@
+body{
+    background-color: #434343;
+    font-family: 'Tomorrow', sans-serif;
+}
+
+#line{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+#inLine{
+    display: flex;
+    align-items: center;
+    padding: 0rem 20rem 0rem 0rem;
+}
+
+h1{
+    color: #C2C2C2;
+    font-size: 3rem;
+    text-decoration: underline;
+    padding: 0rem 0rem 0rem 20rem;
+    text-shadow: 2px 2px 2px black;
+    
+    
+}
+
+#plus{
+    margin: 1rem;
+    width: 50px;
+    height: 50px;
+    background-image: url(Icon/plus.png);
+    background-repeat: no-repeat;
+    background-size: 46px 46px;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px black;
+}
+
+#bin{
+    margin: 1rem;
+    width: 50px;
+    height: 50px;
+    background-image: url(Icon/bin.png);
+    background-repeat: no-repeat;
+    background-size: 46px 46px;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px black;
+    
+}
+
+#dotDot{
+    margin: 1rem;
+    width: 50px;
+    height: 50px;
+    background-image: url(Icon/dotdot.png);
+    background-repeat: no-repeat;
+    background-size: 46px 46px;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px black;
+    
+}
+
+#textGrid{
+    padding: 0rem 0rem 0rem 20rem;
+   max-width: 80rem;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    
+}
+
+
+
+.newTextAr{
+    border-style: none;
+    border-radius: 1rem ;
+    margin: 2rem;
+    display: flex;
+    width: 200px;
+    height: 300px;
+    background-color: #303030;
+    opacity: 81%;
+    color: white;
+    font-family: 'Tomorrow', sans-serif;
+    font-size: 1.5rem;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px rgb(10, 10, 10);
+
+
+}
+
+.newTextAr:focus {
+    height: 45rem;
+    width: 100rem;
+    animation: myfirst 0.3s linear ;
+    order: 1;
+    
+}
+
+.transform{
+    height: 45rem;
+    width: 100rem;
+    animation: myfirst 0.3s linear ;
+}
+
+@keyframes myfirst {
+    0% {
+        width: 200px;
+        height: 300px;
+      }
+      100% {
+        height: 45rem;
+        width: 100rem;
+      }
+}
+
+.yes{
+    position:absolute;
+    top: 50rem;
+    right: 22rem;
+    margin: 1rem;
+    width: 50px;
+    height: 50px;
+    background-image: url(Icon/yes.png);
+    background-repeat: no-repeat;
+    background-size: 46px 46px;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px black; 
+    animation: fadein 0.8s linear;
+}
+
+@keyframes fadein {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+#bin2{
+    position:absolute;
+    top: 50rem;
+    right: 27rem;
+    margin: 1rem;
+    width: 50px;
+    height: 50px;
+    background-image: url(Icon/bin.png);
+    background-repeat: no-repeat;
+    background-size: 46px 46px;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px black; 
+    animation: fadein 0.2s linear; 
+}
