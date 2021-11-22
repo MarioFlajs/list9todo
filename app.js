@@ -57,6 +57,7 @@ document.getElementById("plus").addEventListener("click", function() {
       let destroy3 = document.getElementById("bin2");
       destroy3.remove();
   
+      
     });
        
   });
